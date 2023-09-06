@@ -7,7 +7,7 @@ const PlaceComponent = (props) => {
       <div className='card'>
         <div className='card-header'>
             <img className="card-img" alt="destination" src={"https://source.unsplash.com/1600x1000/?"+props.image}/>
-            <h6 className={props.ratings>=4.0 ? "best" : "d-none"}>Best Reviews</h6>
+            <h6 className={props.ratings>=4.0 ? "best" : "d-none"}>Best Destination</h6>
         </div>
         <div className='card-body'>
             <h3 class="card-title">{props.title}</h3>
